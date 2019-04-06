@@ -10,8 +10,8 @@ namespace RomanNumeralConverter.ConversionTest
         {
             //Arrange -- Context              -- Given
             var converter = new ConversionEngine();
-            var input = 2;
-            var expectedOutput = "II";
+            var input = 3;
+            var expectedOutput = "III";
             //Act     -- Do the thing         -- When
             var actualResult = converter.ConvertNumbers(input);
             //Assert  -- checking the result  -- Then
